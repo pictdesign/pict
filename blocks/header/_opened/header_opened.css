@@ -1,3 +1,5 @@
-.header_opened {
-  transform: translateX(300px);
+@media screen and (max-width: 768px) {
+  .header_opened {
+    transform: translateX(300px);
+  }
 }
