@@ -11,9 +11,3 @@
   background-color: rgb(0, 0, 0);
   transition: opacity .4s ease-in, visibility .4s ease-in;
 }
-
-.menu-button__overlay_active {
-  display: block;
-  visibility: visible;
-  opacity: .5;
-}
