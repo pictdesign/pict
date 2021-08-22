@@ -17,6 +17,7 @@
 @import url(../blocks/menu-button/menu-button.css);
 @import url(../blocks/menu-button/__lines/menu-button__lines.css);
 @import url(../blocks/menu-button/__overlay/menu-button__overlay.css);
+@import url(../blocks/menu-button/__overlay/_active/menu-button__overlay_active.css);
 @import url(../blocks/content/content.css);
 @import url(../blocks/content/__list/content__list.css);
 @import url(../blocks/content/__item/content__item.css);
