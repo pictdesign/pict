@@ -1,0 +1,11 @@
+.content__item {
+  min-width: 250px;
+  max-width: 350px;
+  min-height: 250px;
+  max-height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: contain;
+  position: relative;
+}

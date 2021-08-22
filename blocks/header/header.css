@@ -1,0 +1,21 @@
+.header {
+  height: 100%;
+  max-width: 300px;
+  position: fixed;
+  top: 0;
+  padding: 50px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform .4s ease-in;
+  z-index: 2;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    left: -300px;
+    background-color: #EBEAE8;
+    box-shadow: 10px 0px 10px -5px rgba(0, 0, 0, .15);
+  }
+}

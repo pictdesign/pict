@@ -1,0 +1,12 @@
+.company__item {
+  margin: 0;
+  padding-bottom: 5px;
+  line-height: 14px;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  color: rgb(128, 128, 128);
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+}

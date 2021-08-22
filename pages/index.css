@@ -1,0 +1,26 @@
+@import url(../styles/normalize.css);
+@import url(../fonts/fonts.css);
+@import url(../blocks/page/page.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/_opened/header_opened.css);
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/svg-link/svg-link.css);
+@import url(../blocks/navigation/navigation.css);
+@import url(../blocks/navigation/__info/navigation__info.css);
+@import url(../blocks/navigation/__link/navigation__link.css);
+@import url(../blocks/navigation/__link/_place/navigation__link_place_company.css);
+@import url(../blocks/navigation/__link/_active/navigation__link_active.css);
+@import url(../blocks/navigation/__menu/navigation__menu.css);
+@import url(../blocks/navigation/__item/navigation__item.css);
+@import url(../blocks/company/company.css);
+@import url(../blocks/company/__item/company__item.css);
+@import url(../blocks/menu-button/menu-button.css);
+@import url(../blocks/menu-button/__lines/menu-button__lines.css);
+@import url(../blocks/menu-button/__overlay/menu-button__overlay.css);
+@import url(../blocks/content/content.css);
+@import url(../blocks/content/__list/content__list.css);
+@import url(../blocks/content/__item/content__item.css);
+@import url(../blocks/content/__image/content__image.css);
+@import url(../blocks/content/__link/content__link.css);
+
+

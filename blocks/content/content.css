@@ -1,0 +1,18 @@
+.content {
+  height: 100%;
+  padding-left: 220px;
+  padding-top: 50px;
+  padding-right: 50px;
+  width: 100%;
+  box-sizing: border-box;
+  z-index: -1;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .content {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}

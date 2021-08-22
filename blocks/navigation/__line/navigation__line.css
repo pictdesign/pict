@@ -1,0 +1,7 @@
+.navigation__line {
+  width: 100%;
+  border: 1px solid black;
+  display: inline-block;
+  padding-bottom: 15px;
+  box-sizing: border-box;
+}

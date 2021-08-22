@@ -1,0 +1,38 @@
+.menu-button__lines::before,
+.menu-button__lines::after,
+.menu-button__lines {
+  position: absolute;
+  width: 100%;
+  background-color: black;
+  height: 2px;
+  transition: .4s
+}
+
+.menu-button__lines {
+  top: 50%;
+}
+
+.menu-button__lines::before {
+  top: -10px;
+  content: '';
+}
+
+.menu-button__lines::after {
+  top: 10px;
+  content: '';
+}
+
+.menu-button_active .menu-button__lines {
+  
+  background-color: transparent;
+}
+
+.menu-button_active .menu-button__lines::before {
+  top: 0;
+  transform: rotate(45deg);
+}
+
+.menu-button_active .menu-button__lines::after {
+  top: 0;
+  transform: rotate(-45deg);
+}

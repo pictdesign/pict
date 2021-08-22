@@ -1,0 +1,7 @@
+.navigation__info {
+  display: flex;  
+  padding-top: 10px;
+  width: 50px;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}

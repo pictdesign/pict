@@ -1,0 +1,6 @@
+.svg-link:hover #instagram,
+.svg-link:hover #facebook {
+  fill: black;
+  transition: 0.5s;
+  transition-timing-function: 0.5s;
+}

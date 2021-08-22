@@ -1,0 +1,14 @@
+.content__image {
+  width: 250px;
+  height: 250px;
+  object-fit: contain;
+  z-index: -1;
+}
+
+@media screen and (min-width:400px) and (max-width: 580px) {
+  .content__image {
+    width: 350px;
+    height: 350px;
+  }
+  
+}
