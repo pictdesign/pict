@@ -2,6 +2,9 @@
   font-size: 12px;
   color: rgb(128, 128, 128);
   line-height: 14px;
+}
+
+.navigation__link_place_company:first-of-type{
   padding-bottom: 5px;
 }
 

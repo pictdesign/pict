@@ -3,7 +3,7 @@
   max-width: 300px;
   position: fixed;
   top: 0;
-  padding: 50px;
+  padding: 50px 0 50px 50px;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -14,6 +14,7 @@
 
 @media screen and (max-width: 768px) {
   .header {
+    padding-right: 50px;
     left: -300px;
     background-color: #EBEAE8;
     box-shadow: 10px 0px 10px -5px rgba(0, 0, 0, .15);

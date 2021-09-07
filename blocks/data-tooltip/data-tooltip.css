@@ -1,0 +1,19 @@
+.data-tooltip {
+  position: relative;
+  font-size: 10px;/* Относительное позиционирование */
+  font-weight: 300;
+ }
+ .data-tooltip::after {
+  content: attr(data-tooltip); /* Выводим текст */
+  position: absolute; /* Абсолютное позиционирование */
+  left: 0; top: -2px; /* Положение подсказки */
+  color: #000; /* Цвет текста */
+  pointer-events: none; /* Подсказка */
+  opacity: 0; /* Подсказка невидима */
+  transition: .5s; /* Время появления подсказки */
+ } 
+ .data-tooltip:hover::after {
+  opacity: 0.5; /* Показываем подсказку */
+  left: 30px; /* Положение подсказки */
+  font-weight: 300;
+ }

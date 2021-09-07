@@ -1,0 +1,21 @@
+.project {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 16px;
+  }
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+  .project {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .project {
+    flex-direction: column;
+    font-size: 16px;
+  }
+}  
+  

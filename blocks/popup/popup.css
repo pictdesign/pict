@@ -1,0 +1,19 @@
+.popup {
+  position: fixed;
+  top: 0;
+  box-sizing: border-box;
+  padding: 50px;
+  display: none;
+  height: 100vh;
+  overflow: scroll;
+  justify-content: center;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 3;
+}
+
+.popup__content {
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+}

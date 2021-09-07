@@ -1,0 +1,13 @@
+.project__image-container {
+  width: 100%;
+  max-width: 75%;
+  padding-right: 30px;
+}
+
+@media screen and (max-width: 1024px) {
+  .project__image-container {
+    max-width: 100%;
+    width: 100%;
+    padding-right: 0;
+  }
+}

@@ -5,7 +5,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, 250px);
   grid-template-rows: max-content;
-  gap: 20px;
+  gap: 50px;
   justify-content: center;
 }
 
@@ -27,4 +27,8 @@
     grid-template-columns: 250px;
     grid-template-rows: 250px;
   }
+}
+
+.content__list_position_project {
+  grid-template-columns: repeat(auto-fit, 125px);
 }

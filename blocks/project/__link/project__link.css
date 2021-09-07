@@ -1,0 +1,9 @@
+.project__link {
+  text-decoration: none;
+  color: black;
+  width: fit-content;
+}
+
+.project__link:hover {
+  font-weight: bolder;
+}
